@@ -1,0 +1,64 @@
+/* desain.css */
+
+/* Tata letak header */
+header {
+  background-color: #f8f9fa;
+}
+
+/* Tata letak navbar */
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+
+/* Tata letak tentang saya */
+#about {
+  background-color: #B5C18E;
+}
+
+#about h2 {
+  color: #333333;
+}
+
+/* Tata letak portofolio */
+#portofolio {
+  background-color: #f8f9fa;
+}
+
+#portofolio h2 {
+  color: #333333;
+}
+
+#portofolio .card {
+  margin-bottom: 1rem; /* Margin bawah untuk card */
+}
+
+/* Tata letak kontak */
+#contact {
+  background-color: #ffffff;
+}
+
+#contact h5 {
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/* Tata letak footer */
+.footer {
+  background-color: #B5C18E;
+  padding: 1rem 0;
+}
+
+.footer p {
+  margin-bottom: 0;
+  color: #333333;
+}
+.card {
+  background-color: #E8EFCF;
+
+}
+
+
