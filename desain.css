@@ -23,6 +23,12 @@ header {
   color: #333333;
 }
 
+/* Tambahkan ini ke dalam desain.css Anda */
+.text-left {
+  text-align: left;
+}
+
+
 /* Tata letak portofolio */
 #portofolio {
   background-color: #f8f9fa;
@@ -60,5 +66,19 @@ header {
   background-color: #E8EFCF;
 
 }
+
+@media (max-width: 575.98px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+    background-color: #C6EBC5; /* Warna latar belakang untuk layar kecil */
+  }
+
+  .navbar-nav .nav-link {
+    color: #0000; /* Warna teks untuk layar kecil */
+  }
+}
+
+
+
 
 
