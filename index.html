@@ -12,7 +12,7 @@
   
 </head>
 <body>
-  <header class="bg-light py-4">
+  <header id="top" class="bg-light py-4">
     <div class="container">
       <h1 class="text-center text-dark mb-0">INTRODUCTION</h1>
     </div>
@@ -122,5 +122,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
+  <script>
+ document.getElementById('scroll-to-top').addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+
+  </script>
 </body>
 </html>
